@@ -4,8 +4,8 @@ on: push
 jobs:
   say-hello:
     name: Say hello
+    shell: bash
     steps:
-      shell: bash
       run: echo 'Hello'
 
 
