@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate sBOM
-        uses: ajmalab/actions-sbom-generator
+        uses: ajmalab/actions-sbom-generator@v0
 
 
