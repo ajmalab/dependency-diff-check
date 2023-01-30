@@ -5,7 +5,7 @@ jobs:
   say-hello:
     name: Say hello
     steps:
-      name: Echo hello
+      shell: bash
       run: echo 'Hello'
 
 
