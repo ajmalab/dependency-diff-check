@@ -8,6 +8,7 @@ public class DependencyDiffCheckApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DependencyDiffCheckApplication.class, args);
+		System.out.println("hello");
 	}
 
 }
