@@ -3,7 +3,8 @@ on: push
 
 jobs:
   say-hello:
-    - name: Generate sBOM
-      run: echo "hello"
+    - steps:
+        name: Generate sBOM
+        uses: anchore/sbom-action@v0
 
 
