@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ajmalab.demo.DependencyDiffCheckApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-30T21:58:51" hostname="C02ZQ2KBMD6R" time="0.26">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ajmalab.demo.DependencyDiffCheckApplicationTests" time="0.26"/>
+  <system-out><![CDATA[21:58:50.479 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [DependencyDiffCheckApplicationTests]: using SpringBootContextLoader
+21:58:50.485 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ajmalab.demo.DependencyDiffCheckApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:58:50.485 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ajmalab.demo.DependencyDiffCheckApplicationTests]: DependencyDiffCheckApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:58:50.499 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [DependencyDiffCheckApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+21:58:50.542 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/Ajmal.Kottilingal/dev/dependency-diff-check/build/classes/java/main/com/ajmalab/demo/DependencyDiffCheckApplication.class]
+21:58:50.543 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ajmalab.demo.DependencyDiffCheckApplication for test class com.ajmalab.demo.DependencyDiffCheckApplicationTests
+21:58:50.593 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [jakarta/servlet/ServletContext]
+21:58:50.596 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:58:50.597 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:58:50.599 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [DependencyDiffCheckApplicationTests]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+21:58:50.599 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [DependencyDiffCheckApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+21:58:50.608 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.ajmalab.demo.DependencyDiffCheckApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-30T21:58:50.785Z  INFO 20035 --- [    Test worker] .a.d.DependencyDiffCheckApplicationTests : Starting DependencyDiffCheckApplicationTests using Java 17.0.2 with PID 20035 (started by Ajmal.Kottilingal in /Users/Ajmal.Kottilingal/dev/dependency-diff-check)
+2023-01-30T21:58:50.786Z  INFO 20035 --- [    Test worker] .a.d.DependencyDiffCheckApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-01-30T21:58:51.069Z  INFO 20035 --- [    Test worker] .a.d.DependencyDiffCheckApplicationTests : Started DependencyDiffCheckApplicationTests in 0.436 seconds (process running for 1.218)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
