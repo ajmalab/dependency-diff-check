@@ -1,0 +1,859 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ef4b18f2-6756-472a-841b-7f716d18b127",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-09T17:46:55.116Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "7.0.5"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "dependency-diff-check",
+      "version": "",
+      "type": "application"
+    }
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-autoconfigure",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-logging",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.4.5",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.4.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.4.5?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.4.5",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.4.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.4.5?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.6",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-to-slf4j",
+      "version": "2.19.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.19.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.19.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.19.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "jul-to-slf4j",
+      "version": "2.0.6",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.6?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "2.1.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.33",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.33?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.33?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson",
+      "name": "jackson-bom",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-test",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-test",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-test@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-test@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-test-autoconfigure",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.jayway.jsonpath",
+      "name": "json-path",
+      "version": "2.7.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.jayway.jsonpath/json-path@2.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jayway.jsonpath/json-path@2.7.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.8",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "2.4.8",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.ow2.asm/asm@9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "4.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "2.1.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.assertj",
+      "name": "assertj-core",
+      "version": "3.23.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.assertj/assertj-core@3.23.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.assertj/assertj-core@3.23.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.12.20",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.12.20?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.12.20?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.hamcrest",
+      "name": "hamcrest",
+      "version": "2.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter",
+      "version": "5.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter@5.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit",
+      "name": "junit-bom",
+      "version": "5.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit/junit-bom@5.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit/junit-bom@5.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-params",
+      "version": "5.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.platform",
+      "name": "junit-platform-commons",
+      "version": "1.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.opentest4j",
+      "name": "opentest4j",
+      "version": "1.2.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apiguardian",
+      "name": "apiguardian-api",
+      "version": "1.1.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.mockito",
+      "name": "mockito-core",
+      "version": "4.8.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.mockito/mockito-core@4.8.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-core@4.8.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy-agent",
+      "version": "1.12.20",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.20?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.20?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.mockito",
+      "name": "mockito-junit-jupiter",
+      "version": "4.8.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.mockito/mockito-junit-jupiter@4.8.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-junit-jupiter@4.8.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.skyscreamer",
+      "name": "jsonassert",
+      "version": "1.5.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.skyscreamer/jsonassert@1.5.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.skyscreamer/jsonassert@1.5.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.vaadin.external.google",
+      "name": "android-json",
+      "version": "0.0.20131108.vaadin1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-test",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-test@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-test@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.xmlunit",
+      "name": "xmlunit-core",
+      "version": "2.9.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.xmlunit/xmlunit-core@2.9.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.xmlunit/xmlunit-core@2.9.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.junit.platform",
+      "name": "junit-platform-engine",
+      "version": "1.9.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.objenesis",
+      "name": "objenesis",
+      "version": "3.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.objenesis/objenesis@3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.objenesis/objenesis@3.2?type=jar"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/root@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework.boot/spring-boot-starter@3.0.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar",
+        "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.0.1?type=jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+        "pkg:maven/org.yaml/snakeyaml@1.33?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+        "pkg:maven/org.springframework/spring-context@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+        "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-classic@1.4.5?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.19.0?type=jar",
+        "pkg:maven/org.slf4j/jul-to-slf4j@2.0.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.4.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.4.5?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.4.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.19.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@1.33?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-test@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework.boot/spring-boot-test@3.0.1?type=jar",
+        "pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.0.1?type=jar",
+        "pkg:maven/com.jayway.jsonpath/json-path@2.7.0?type=jar",
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0?type=jar",
+        "pkg:maven/org.assertj/assertj-core@3.23.1?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter@5.9.1?type=jar",
+        "pkg:maven/org.mockito/mockito-core@4.8.1?type=jar",
+        "pkg:maven/org.mockito/mockito-junit-jupiter@4.8.1?type=jar",
+        "pkg:maven/org.skyscreamer/jsonassert@1.5.1?type=jar",
+        "pkg:maven/org.springframework/spring-test@6.0.3?type=jar",
+        "pkg:maven/org.xmlunit/xmlunit-core@2.9.0?type=jar",
+        "pkg:maven/org.objenesis/objenesis@3.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-test@3.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.jayway.jsonpath/json-path@2.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.minidev/json-smart@2.4.8?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm@9.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.assertj/assertj-core@3.23.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.bytebuddy/byte-buddy@1.12.20?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.bytebuddy/byte-buddy@1.12.20?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter@5.9.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.junit/junit-bom@5.9.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit/junit-bom@5.9.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.9.1?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mockito/mockito-core@4.8.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.20?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.20?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mockito/mockito-junit-jupiter@4.8.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.skyscreamer/jsonassert@1.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-test@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.xmlunit/xmlunit-core@2.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.objenesis/objenesis@3.2?type=jar",
+      "dependsOn": []
+    }
+  ]
+}
