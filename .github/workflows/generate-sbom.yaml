@@ -3,12 +3,6 @@ on: push
 
 jobs:
   build-and-generate-sbom:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate sBOM
-        id: generate-sbom
-        uses: ajmalab/actions-sbom-generator@v1
-
-
+    uses: ajmalab/workflow-sbom-generator/.github/workflows/generate_and_upload_sbom.yaml
 
 
