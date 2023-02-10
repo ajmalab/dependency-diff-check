@@ -3,6 +3,6 @@ on: push
 
 jobs:
   build-and-generate-sbom:
-    uses: ajmalab/workflow-sbom-generator/.github/workflows/generate_and_upload_sbom.yaml
+    uses: ajmalab/workflow-sbom-generator/.github/workflows/generate_and_upload_sbom.yaml@main
 
 
