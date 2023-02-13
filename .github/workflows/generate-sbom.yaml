@@ -4,5 +4,6 @@ on: push
 jobs:
   build-and-generate-sbom:
     uses: ajmalab/workflow-sbom-generator/.github/workflows/generate_and_upload_sbom.yaml@main
+    description: testing reusable workflow
 
 
