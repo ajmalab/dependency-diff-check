@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e894de6-10d7-4d8c-b969-5ae8191b7c6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/generate-sbom.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/generate-sbom.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <updated>1674068626731</updated>
       <workItem from="1674068628519" duration="854000" />
       <workItem from="1675098198273" duration="838000" />
-      <workItem from="1675873160877" duration="8211000" />
+      <workItem from="1675873160877" duration="8240000" />
     </task>
     <servers />
   </component>
