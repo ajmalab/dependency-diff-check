@@ -1,0 +1,599 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2d2852df-60b2-4fca-a5b8-634010924cdf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-05-15T10:34:57.450Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.4.2"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check",
+      "version": "latest",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check@latest?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check@latest?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-autoconfigure",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework.boot",
+      "name": "spring-boot",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "6.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.7",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.14.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson",
+      "name": "jackson-bom",
+      "version": "2.14.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson",
+      "name": "jackson-bom",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.graphql-java",
+      "name": "graphql-java",
+      "version": "20.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.graphql-java/graphql-java@20.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.graphql-java/graphql-java@20.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.graphql-java",
+      "name": "java-dataloader",
+      "version": "3.2.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.graphql-java/java-dataloader@3.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.graphql-java/java-dataloader@3.2.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.reactivestreams",
+      "name": "reactive-streams",
+      "version": "1.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.flywaydb",
+      "name": "flyway-mysql",
+      "version": "9.17.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.flywaydb",
+      "name": "flyway-core",
+      "version": "9.17.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.flywaydb/flyway-core@9.17.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.flywaydb/flyway-core@9.17.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-toml",
+      "version": "2.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson",
+      "name": "jackson-bom",
+      "version": "2.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.apache.commons",
+      "name": "commons-text",
+      "version": "1.10.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.10.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-toml",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.14.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.35",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/dependency-diff-check@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework.boot/spring-boot@3.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+        "pkg:maven/org.springframework/spring-context@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+        "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@6.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@6.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/dependency-diff-check@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/dependency-diff-check@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.graphql-java/graphql-java@20.2?type=jar",
+        "pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.graphql-java/graphql-java@20.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.graphql-java/java-dataloader@3.2.0?type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.graphql-java/java-dataloader@3.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.flywaydb/flyway-core@9.17.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.flywaydb/flyway-core@9.17.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/build.gradle",
+      "comment": "Package file"
+    }
+  ]
+}
