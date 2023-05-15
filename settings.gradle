@@ -1,1 +1,8 @@
-rootProject.name = 'demo'
+rootProject.name = 'dependency-diff-check'
+include 'client-starter'
+include 'common-core'
+include 'service'
+
+rootProject.children.each {
+    it.name = "dependency-diff-check-${it.name}"
+}
