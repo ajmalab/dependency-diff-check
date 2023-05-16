@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:2d2852df-60b2-4fca-a5b8-634010924cdf" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:6068a437-28a1-4c13-9508-dc5a31bbb191" version="1">
   <metadata>
-    <timestamp>2023-05-15T10:34:57.456Z</timestamp>
+    <timestamp>2023-05-16T15:54:00.368Z</timestamp>
     <tools>
       <tool>
         <vendor>cyclonedx</vendor>
         <name>cdxgen</name>
-        <version>8.4.2</version>
+        <version>8.4.7</version>
       </tool>
     </tools>
     <authors>
@@ -26,6 +26,15 @@
     </component>
   </metadata>
   <components>
+    <component type="library" bom-ref="pkg:maven/dependency-diff-check-client-starter@latest?type=jar">
+      <publisher/>
+      <group/>
+      <name>dependency-diff-check-client-starter</name>
+      <version>latest</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/dependency-diff-check-client-starter@latest?type=jar</purl>
+    </component>
     <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar">
       <publisher/>
       <group>org.springframework.boot</group>
@@ -134,6 +143,150 @@
       <licenses/>
       <purl>pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar</purl>
     </component>
+    <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-jdbc@1.19.0?type=jar">
+      <publisher/>
+      <group>io.opentelemetry</group>
+      <name>opentelemetry-jdbc</name>
+      <version>1.19.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/io.opentelemetry/opentelemetry-jdbc@1.19.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar">
+      <publisher/>
+      <group>io.grpc</group>
+      <name>grpc-core</name>
+      <version>1.49.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/io.grpc/grpc-core@1.49.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.grpc/grpc-api@1.49.2?type=jar">
+      <publisher/>
+      <group>io.grpc</group>
+      <name>grpc-api</name>
+      <version>1.49.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/io.grpc/grpc-api@1.49.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.grpc/grpc-context@1.49.2?type=jar">
+      <publisher/>
+      <group>io.grpc</group>
+      <name>grpc-context</name>
+      <version>1.49.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/io.grpc/grpc-context@1.49.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
+      <publisher/>
+      <group>com.google.code.findbugs</group>
+      <name>jsr305</name>
+      <version>3.0.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.14.0?type=jar">
+      <publisher/>
+      <group>com.google.errorprone</group>
+      <name>error_prone_annotations</name>
+      <version>2.14.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.14.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/guava@31.1-android?type=jar">
+      <publisher/>
+      <group>com.google.guava</group>
+      <name>guava</name>
+      <version>31.1-android</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.guava/guava@31.1-android?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
+      <publisher/>
+      <group>com.google.guava</group>
+      <name>failureaccess</name>
+      <version>1.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
+      <publisher/>
+      <group>com.google.guava</group>
+      <name>listenablefuture</name>
+      <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar">
+      <publisher/>
+      <group>org.checkerframework</group>
+      <name>checker-qual</name>
+      <version>3.12.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar">
+      <publisher/>
+      <group>com.google.j2objc</group>
+      <name>j2objc-annotations</name>
+      <version>1.3</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.9.1?type=jar">
+      <publisher/>
+      <group>com.google.code.gson</group>
+      <name>gson</name>
+      <version>2.9.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.code.gson/gson@2.9.1?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.android/annotations@4.1.1.4?type=jar">
+      <publisher/>
+      <group>com.google.android</group>
+      <name>annotations</name>
+      <version>4.1.1.4</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.android/annotations@4.1.1.4?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.21?type=jar">
+      <publisher/>
+      <group>org.codehaus.mojo</group>
+      <name>animal-sniffer-annotations</name>
+      <version>1.21</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.21?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar">
+      <publisher/>
+      <group>io.perfmark</group>
+      <name>perfmark-api</name>
+      <version>0.25.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
+      <publisher/>
+      <group/>
+      <name>dependency-diff-check-common-core</name>
+      <version>latest</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/dependency-diff-check-common-core@latest?type=jar</purl>
+    </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
       <publisher/>
       <group>com.fasterxml.jackson.core</group>
@@ -151,6 +304,24 @@
       <description/>
       <licenses/>
       <purl>pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.9.0?type=jar">
+      <publisher/>
+      <group>com.google.code.gson</group>
+      <name>gson</name>
+      <version>2.9.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.google.code.gson/gson@2.9.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/dependency-diff-check-service@latest?type=jar">
+      <publisher/>
+      <group/>
+      <name>dependency-diff-check-service</name>
+      <version>latest</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/dependency-diff-check-service@latest?type=jar</purl>
     </component>
     <component type="library" bom-ref="pkg:maven/com.graphql-java/graphql-java@20.2?type=jar">
       <publisher/>
@@ -318,6 +489,9 @@
   </externalReferences>
   <dependencies>
     <dependency ref="pkg:maven/dependency-diff-check@latest?type=jar">
+      <dependency ref="pkg:maven/dependency-diff-check-service@latest?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/dependency-diff-check-client-starter@latest?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar">
@@ -339,22 +513,45 @@
     <dependency ref="pkg:maven/org.springframework/spring-beans@6.0.3?type=jar"/>
     <dependency ref="pkg:maven/org.springframework/spring-expression@6.0.3?type=jar"/>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar"/>
+      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar"/>
-    <dependency ref="pkg:maven/dependency-diff-check@latest?type=jar">
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"/>
+    <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-jdbc@1.19.0?type=jar"/>
+    <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    <dependency ref="pkg:maven/io.grpc/grpc-api@1.49.2?type=jar">
+      <dependency ref="pkg:maven/com.google.guava/guava@31.1-android?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.grpc/grpc-context@1.49.2?type=jar"/>
+    <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
+    <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.14.0?type=jar"/>
+    <dependency ref="pkg:maven/com.google.guava/guava@31.1-android?type=jar">
+      <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"/>
+    <dependency ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"/>
+    <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar"/>
+    <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"/>
+    <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.1?type=jar"/>
+    <dependency ref="pkg:maven/com.google.android/annotations@4.1.1.4?type=jar"/>
+    <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.21?type=jar"/>
+    <dependency ref="pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar"/>
+    <dependency ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
+      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"/>
-    <dependency ref="pkg:maven/dependency-diff-check@latest?type=jar">
+    <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.0?type=jar"/>
+    <dependency ref="pkg:maven/dependency-diff-check-service@latest?type=jar">
       <dependency ref="pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.graphql-java/graphql-java@20.2?type=jar">
@@ -366,7 +563,7 @@
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"/>
     <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
     <dependency ref="pkg:maven/org.flywaydb/flyway-mysql@9.17.0?type=jar">
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"/>
+      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.flywaydb/flyway-core@9.17.0?type=jar">
       <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"/>
@@ -387,14 +584,7 @@
     <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar">
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
     <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"/>
-    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar"/>
-    </dependency>
-    <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar">
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"/>
-    </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"/>
