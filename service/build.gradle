@@ -12,7 +12,8 @@ repositories {
 dependencies {
     implementation project(":dependency-diff-check-common-core:");
     implementation 'com.graphql-java:graphql-java:20.2';
-    implementation 'org.flywaydb:flyway-mysql:9.17.0';
+    implementation 'org.flywaydb:flyway-mysql:9.18.0';
+    compileOnly 'org.projectlombok:lombok:1.18.26'
 }
 
 tasks.test {
