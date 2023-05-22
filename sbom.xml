@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:da69146f-10ff-4379-bce0-7b587b976c2e" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:93abe201-7404-4b3d-89f2-94099ed16d7c" version="1">
   <metadata>
-    <timestamp>2023-05-18T17:21:40.814Z</timestamp>
+    <timestamp>2023-05-22T15:18:09.382Z</timestamp>
     <tools>
       <tool>
         <vendor>cyclonedx</vendor>
         <name>cdxgen</name>
-        <version>8.4.11</version>
+        <version>8.4.12</version>
       </tool>
     </tools>
     <authors>
@@ -356,6 +356,7 @@
       <name>gson</name>
       <version>2.9.0</version>
       <description/>
+      <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/com.google.code.gson/gson@2.9.0?type=jar</purl>
     </component>
@@ -500,6 +501,7 @@
       <name>jackson-dataformat-toml</name>
       <version>2.14.2</version>
       <description/>
+      <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar</purl>
     </component>
@@ -509,6 +511,7 @@
       <name>jackson-databind</name>
       <version>2.14.2</version>
       <description/>
+      <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?type=jar</purl>
     </component>
@@ -518,6 +521,7 @@
       <name>jackson-annotations</name>
       <version>2.14.2</version>
       <description/>
+      <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar</purl>
     </component>
@@ -527,6 +531,7 @@
       <name>slf4j-api</name>
       <version>1.7.35</version>
       <description/>
+      <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar</purl>
     </component>
@@ -570,10 +575,11 @@
     <dependency ref="pkg:maven/org.springframework/spring-expression@6.0.3?type=jar">
       <dependency ref="pkg:maven/org.springframework/spring-core@6.0.3?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
-      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
-    </dependency>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    <dependency ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.1?type=jar"/>
     </dependency>
@@ -616,9 +622,6 @@
     <dependency ref="pkg:maven/com.google.android/annotations@4.1.1.4?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.21?type=jar"/>
     <dependency ref="pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar"/>
-    <dependency ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
-      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
-    </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"/>
     </dependency>
@@ -627,7 +630,7 @@
     </dependency>
     <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.0?type=jar"/>
     <dependency ref="pkg:maven/dependency-diff-check-service@latest?type=jar">
-      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
+      <dependency ref="pkg:maven/org.flywaydb/flyway-mysql@9.18.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.projectlombok/lombok@1.18.26?type=jar"/>
     <dependency ref="pkg:maven/com.graphql-java/graphql-java@20.2?type=jar">
@@ -639,7 +642,7 @@
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"/>
     <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
     <dependency ref="pkg:maven/org.flywaydb/flyway-mysql@9.18.0?type=jar">
-      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
+      <dependency ref="pkg:maven/org.flywaydb/flyway-core@9.18.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.flywaydb/flyway-core@9.18.0?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar"/>

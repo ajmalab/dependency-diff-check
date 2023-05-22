@@ -12,10 +12,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common-core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sbom.json" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sbom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +38,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="dependency-diff-check" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dependency-diff-check" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dependency-diff-check" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="dependency-diff-check" type="f1a62948:ProjectNode" />
-                <item name="dependency-diff-check-client-starter" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -173,7 +156,8 @@
       <workItem from="1684306329612" duration="902000" />
       <workItem from="1684316795664" duration="438000" />
       <workItem from="1684338376808" duration="628000" />
-      <workItem from="1684430459918" duration="19000" />
+      <workItem from="1684430459918" duration="3447000" />
+      <workItem from="1684759599839" duration="1730000" />
     </task>
     <servers />
   </component>
