@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:93abe201-7404-4b3d-89f2-94099ed16d7c" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ba680ca5-a2f5-47ef-b6d7-e5708a3ac48c" version="1">
   <metadata>
-    <timestamp>2023-05-22T15:18:09.382Z</timestamp>
+    <timestamp>2023-05-31T12:06:35.520Z</timestamp>
     <tools>
       <tool>
         <vendor>cyclonedx</vendor>
         <name>cdxgen</name>
-        <version>8.4.12</version>
+        <version>8.5.1</version>
       </tool>
     </tools>
     <authors>
@@ -15,26 +15,17 @@
         <email>prabhu@appthreat.com</email>
       </author>
     </authors>
-    <component type="library" bom-ref="pkg:maven/dependency-diff-check@latest?type=jar">
+    <component type="application" bom-ref="pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar">
       <publisher/>
-      <group/>
+      <group>com.ajmalab</group>
       <name>dependency-diff-check</name>
-      <version>latest</version>
+      <version>0.0.1-SNAPSHOT</version>
       <description/>
       <licenses/>
-      <purl>pkg:maven/dependency-diff-check@latest?type=jar</purl>
+      <purl>pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar</purl>
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="pkg:maven/dependency-diff-check-client-starter@latest?type=jar">
-      <publisher/>
-      <group/>
-      <name>dependency-diff-check-client-starter</name>
-      <version>latest</version>
-      <description/>
-      <licenses/>
-      <purl>pkg:maven/dependency-diff-check-client-starter@latest?type=jar</purl>
-    </component>
     <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar">
       <publisher/>
       <group>org.springframework.boot</group>
@@ -323,15 +314,6 @@
       <licenses/>
       <purl>pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar</purl>
     </component>
-    <component type="library" bom-ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
-      <publisher/>
-      <group/>
-      <name>dependency-diff-check-common-core</name>
-      <version>latest</version>
-      <description/>
-      <licenses/>
-      <purl>pkg:maven/dependency-diff-check-common-core@latest?type=jar</purl>
-    </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
       <publisher/>
       <group>com.fasterxml.jackson.core</group>
@@ -359,15 +341,6 @@
       <scope>required</scope>
       <licenses/>
       <purl>pkg:maven/com.google.code.gson/gson@2.9.0?type=jar</purl>
-    </component>
-    <component type="library" bom-ref="pkg:maven/dependency-diff-check-service@latest?type=jar">
-      <publisher/>
-      <group/>
-      <name>dependency-diff-check-service</name>
-      <version>latest</version>
-      <description/>
-      <licenses/>
-      <purl>pkg:maven/dependency-diff-check-service@latest?type=jar</purl>
     </component>
     <component type="library" bom-ref="pkg:maven/org.projectlombok/lombok@1.18.26?type=jar">
       <publisher/>
@@ -538,19 +511,19 @@
   </components>
   <externalReferences>
     <reference type="other">
-      <url>./</url>
+      <url>.</url>
       <comment>Base path</comment>
     </reference>
     <reference type="other">
-      <url>Users/Ajmal.Kottilingal/dev/dependency-diff-check/build.gradle</url>
+      <url>/Users/Ajmal.Kottilingal/dev/dependency-diff-check/build.gradle</url>
       <comment>Package file</comment>
     </reference>
   </externalReferences>
   <dependencies>
-    <dependency ref="pkg:maven/dependency-diff-check@latest?type=jar">
-      <dependency ref="pkg:maven/dependency-diff-check-service@latest?type=jar"/>
+    <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/dependency-diff-check-client-starter@latest?type=jar">
+    <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.0.1?type=jar">
@@ -577,7 +550,7 @@
     </dependency>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
-    <dependency ref="pkg:maven/dependency-diff-check-common-core@latest?type=jar">
+    <dependency ref="pkg:maven/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar">
@@ -622,6 +595,9 @@
     <dependency ref="pkg:maven/com.google.android/annotations@4.1.1.4?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.21?type=jar"/>
     <dependency ref="pkg:maven/io.perfmark/perfmark-api@0.25.0?type=jar"/>
+    <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"/>
     </dependency>
@@ -629,7 +605,7 @@
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.0?type=jar"/>
-    <dependency ref="pkg:maven/dependency-diff-check-service@latest?type=jar">
+    <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.flywaydb/flyway-mysql@9.18.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.projectlombok/lombok@1.18.26?type=jar"/>
