@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ba680ca5-a2f5-47ef-b6d7-e5708a3ac48c" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:4181fdf8-8840-4adc-b42f-64320801fb77" version="1">
   <metadata>
-    <timestamp>2023-05-31T12:06:35.520Z</timestamp>
+    <timestamp>2023-06-01T20:59:51.668Z</timestamp>
     <tools>
       <tool>
         <vendor>cyclonedx</vendor>
         <name>cdxgen</name>
-        <version>8.5.1</version>
+        <version>8.5.2</version>
       </tool>
     </tools>
     <authors>
@@ -508,6 +508,105 @@
       <licenses/>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar</purl>
     </component>
+    <component type="library" bom-ref="pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar">
+      <publisher/>
+      <group>com.slack.api</group>
+      <name>slack-api-client</name>
+      <version>1.29.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar">
+      <publisher/>
+      <group>com.slack.api</group>
+      <name>slack-api-model</name>
+      <version>1.29.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar">
+      <publisher/>
+      <group>com.squareup.okhttp3</group>
+      <name>okhttp</name>
+      <version>4.10.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.squareup.okio/okio@3.0.0?type=jar">
+      <publisher/>
+      <group>com.squareup.okio</group>
+      <name>okio</name>
+      <version>3.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.squareup.okio/okio@3.0.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar">
+      <publisher/>
+      <group>com.squareup.okio</group>
+      <name>okio-jvm</name>
+      <version>3.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar">
+      <publisher/>
+      <group>org.jetbrains.kotlin</group>
+      <name>kotlin-stdlib-jdk8</name>
+      <version>1.5.31</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar">
+      <publisher/>
+      <group>org.jetbrains.kotlin</group>
+      <name>kotlin-stdlib</name>
+      <version>1.6.20</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar">
+      <publisher/>
+      <group>org.jetbrains.kotlin</group>
+      <name>kotlin-stdlib-common</name>
+      <version>1.6.20</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains/annotations@13.0?type=jar">
+      <publisher/>
+      <group>org.jetbrains</group>
+      <name>annotations</name>
+      <version>13.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.jetbrains/annotations@13.0?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar">
+      <publisher/>
+      <group>org.jetbrains.kotlin</group>
+      <name>kotlin-stdlib-jdk7</name>
+      <version>1.5.31</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
+      <publisher/>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>1.7.36</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
+    </component>
   </components>
   <externalReferences>
     <reference type="other">
@@ -521,7 +620,7 @@
   </externalReferences>
   <dependencies>
     <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
@@ -652,5 +751,32 @@
       <dependency ref="pkg:maven/com.fasterxml.jackson/jackson-bom@2.14.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar"/>
+    <dependency ref="pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar">
+      <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar">
+      <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.squareup.okio/okio@3.0.0?type=jar">
+      <dependency ref="pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar">
+      <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar">
+      <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar">
+      <dependency ref="pkg:maven/org.jetbrains/annotations@13.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar"/>
+    <dependency ref="pkg:maven/org.jetbrains/annotations@13.0?type=jar"/>
+    <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar">
+      <dependency ref="pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
   </dependencies>
 </bom>

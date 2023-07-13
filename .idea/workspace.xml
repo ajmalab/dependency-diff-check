@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e894de6-10d7-4d8c-b969-5ae8191b7c6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sbom.json" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sbom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.xml" afterDir="false" />
     </list>
@@ -258,7 +254,7 @@
       <workItem from="1684338376808" duration="628000" />
       <workItem from="1684430459918" duration="3447000" />
       <workItem from="1684759599839" duration="2990000" />
-      <workItem from="1685533958932" duration="1301000" />
+      <workItem from="1685533958932" duration="3484000" />
     </task>
     <servers />
   </component>

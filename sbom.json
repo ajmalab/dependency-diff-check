@@ -1,17 +1,22 @@
 {
   "bomFormat": "CycloneDX",
-  "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ba680ca5-a2f5-47ef-b6d7-e5708a3ac48c",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:00de4a2d-b3c3-4a9f-bd50-4b3266ef603d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-05-31T12:06:35.514Z",
-    "tools": [
-      {
-        "vendor": "cyclonedx",
-        "name": "cdxgen",
-        "version": "8.5.1"
-      }
-    ],
+    "timestamp": "2023-07-13T17:28:13.130Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.2.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.2.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.2.1"
+        }
+      ]
+    },
     "authors": [
       {
         "name": "Prabhu Subramanian",
@@ -19,15 +24,10 @@
       }
     ],
     "component": {
-      "publisher": "",
-      "group": "com.ajmalab",
       "name": "dependency-diff-check",
-      "version": "0.0.1-SNAPSHOT",
-      "description": "",
-      "licenses": [],
-      "purl": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
       "type": "application",
-      "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
+      "group": "com.ajmalab",
+      "version": "0.0.1-SNAPSHOT",
       "properties": [
         {
           "name": "buildFile",
@@ -42,78 +42,14 @@
           "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
         }
       ],
-      "components": [
-        {
-          "name": "dependency-diff-check-client-starter",
-          "type": "application",
-          "group": "com.ajmalab",
-          "version": "0.0.1-SNAPSHOT",
-          "properties": [
-            {
-              "name": "buildFile",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/client-starter/build.gradle"
-            },
-            {
-              "name": "projectDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/client-starter"
-            },
-            {
-              "name": "rootDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
-            }
-          ],
-          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar",
-          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar"
-        },
-        {
-          "name": "dependency-diff-check-common-core",
-          "type": "application",
-          "group": "com.ajmalab",
-          "version": "0.0.1-SNAPSHOT",
-          "properties": [
-            {
-              "name": "buildFile",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/common-core/build.gradle"
-            },
-            {
-              "name": "projectDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/common-core"
-            },
-            {
-              "name": "rootDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
-            }
-          ],
-          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar",
-          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar"
-        },
-        {
-          "name": "dependency-diff-check-service",
-          "type": "application",
-          "group": "com.ajmalab",
-          "version": "0.0.1-SNAPSHOT",
-          "properties": [
-            {
-              "name": "buildFile",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/service/build.gradle"
-            },
-            {
-              "name": "projectDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/service"
-            },
-            {
-              "name": "rootDir",
-              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
-            }
-          ],
-          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar",
-          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar"
-        }
-      ]
+      "purl": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
+      "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
+      "components": []
     }
   },
   "components": [
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework.boot",
       "name": "spring-boot-autoconfigure",
@@ -131,6 +67,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework.boot",
       "name": "spring-boot",
@@ -148,6 +85,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-core",
@@ -165,6 +103,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-jcl",
@@ -182,6 +121,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-context",
@@ -199,6 +139,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-aop",
@@ -216,6 +157,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-beans",
@@ -233,6 +175,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.springframework",
       "name": "spring-expression",
@@ -250,6 +193,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.slf4j",
       "name": "slf4j-api",
@@ -267,6 +211,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.apache.commons",
       "name": "commons-lang3",
@@ -284,6 +229,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -301,6 +247,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson",
       "name": "jackson-bom",
@@ -318,6 +265,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry.instrumentation",
       "name": "opentelemetry-jdbc",
@@ -335,6 +283,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry.instrumentation",
       "name": "opentelemetry-instrumentation-api",
@@ -352,6 +301,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry",
       "name": "opentelemetry-api",
@@ -369,6 +319,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry",
       "name": "opentelemetry-context",
@@ -386,6 +337,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry.instrumentation",
       "name": "opentelemetry-instrumentation-api-semconv",
@@ -403,6 +355,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.opentelemetry",
       "name": "opentelemetry-semconv",
@@ -420,6 +373,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.grpc",
       "name": "grpc-core",
@@ -437,6 +391,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.grpc",
       "name": "grpc-api",
@@ -454,6 +409,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.grpc",
       "name": "grpc-context",
@@ -471,6 +427,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.code.findbugs",
       "name": "jsr305",
@@ -488,6 +445,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.errorprone",
       "name": "error_prone_annotations",
@@ -505,6 +463,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.guava",
       "name": "guava",
@@ -522,6 +481,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.guava",
       "name": "failureaccess",
@@ -539,6 +499,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.guava",
       "name": "listenablefuture",
@@ -556,6 +517,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.checkerframework",
       "name": "checker-qual",
@@ -573,6 +535,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.j2objc",
       "name": "j2objc-annotations",
@@ -590,6 +553,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.code.gson",
       "name": "gson",
@@ -607,6 +571,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.android",
       "name": "annotations",
@@ -624,6 +589,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.codehaus.mojo",
       "name": "animal-sniffer-annotations",
@@ -641,6 +607,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "io.perfmark",
       "name": "perfmark-api",
@@ -658,6 +625,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -675,6 +643,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson",
       "name": "jackson-bom",
@@ -692,6 +661,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.code.gson",
       "name": "gson",
@@ -710,6 +680,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.projectlombok",
       "name": "lombok",
@@ -727,6 +698,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.graphql-java",
       "name": "graphql-java",
@@ -744,6 +716,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.graphql-java",
       "name": "java-dataloader",
@@ -761,6 +734,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.slf4j",
       "name": "slf4j-api",
@@ -778,6 +752,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.reactivestreams",
       "name": "reactive-streams",
@@ -795,6 +770,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.flywaydb",
       "name": "flyway-mysql",
@@ -812,6 +788,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.flywaydb",
       "name": "flyway-core",
@@ -829,6 +806,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.dataformat",
       "name": "jackson-dataformat-toml",
@@ -846,6 +824,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -863,6 +842,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-annotations",
@@ -880,6 +860,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson",
       "name": "jackson-bom",
@@ -897,6 +878,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-core",
@@ -914,6 +896,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.apache.commons",
       "name": "commons-text",
@@ -931,6 +914,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.google.code.gson",
       "name": "gson",
@@ -948,6 +932,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.dataformat",
       "name": "jackson-dataformat-toml",
@@ -966,6 +951,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-databind",
@@ -984,6 +970,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "com.fasterxml.jackson.core",
       "name": "jackson-annotations",
@@ -1002,6 +989,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "org.slf4j",
       "name": "slf4j-api",
@@ -1018,15 +1006,401 @@
           "value": "runtimeClasspath"
         }
       ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.slack.api",
+      "name": "slack-api-client",
+      "version": "1.29.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.slack.api",
+      "name": "slack-api-model",
+      "version": "1.29.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "4.10.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "3.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.squareup.okio/okio@3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@3.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.squareup.okio",
+      "name": "okio-jvm",
+      "version": "3.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.5.31",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "1.6.20",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "1.6.20",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.5.31",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "compileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check-service-0.0.1",
+      "version": "SNAPSHOT",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check-service-0.0.1@SNAPSHOT",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check-service-0.0.1@SNAPSHOT",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "dependency-diff-check-service-0.0.1-SNAPSHOT.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "dependency-diff-check-service-0.0.1-SNAPSHOT.jar"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "gradle",
+      "version": "wrapper",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/gradle@wrapper",
+      "type": "library",
+      "bom-ref": "pkg:maven/gradle@wrapper",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "gradle-wrapper.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check-common-core-0.0.1",
+      "version": "SNAPSHOT",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check-common-core-0.0.1@SNAPSHOT",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check-common-core-0.0.1@SNAPSHOT",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "dependency-diff-check-common-core-0.0.1-SNAPSHOT.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "dependency-diff-check-common-core-0.0.1-SNAPSHOT.jar"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check-client-starter-0.0.1",
+      "version": "SNAPSHOT",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check-client-starter-0.0.1@SNAPSHOT",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check-client-starter-0.0.1@SNAPSHOT",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "dependency-diff-check-client-starter-0.0.1-SNAPSHOT.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "dependency-diff-check-client-starter-0.0.1-SNAPSHOT.jar"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check-client-starter-0.0.1-SNAPSHOT",
+      "version": "plain",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check-client-starter-0.0.1-SNAPSHOT@plain",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check-client-starter-0.0.1-SNAPSHOT@plain",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "dependency-diff-check-client-starter-0.0.1-SNAPSHOT-plain.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "dependency-diff-check-client-starter-0.0.1-SNAPSHOT-plain.jar"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dependency-diff-check-0.0.1",
+      "version": "SNAPSHOT",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/dependency-diff-check-0.0.1@SNAPSHOT",
+      "type": "library",
+      "bom-ref": "pkg:maven/dependency-diff-check-0.0.1@SNAPSHOT",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 0.5,
+          "methods": [
+            {
+              "technique": "filename",
+              "confidence": 0.5,
+              "value": "dependency-diff-check-0.0.1-SNAPSHOT.jar"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "dependency-diff-check-0.0.1-SNAPSHOT.jar"
+        }
+      ]
     }
   ],
+  "services": [],
   "dependencies": [
     {
       "ref": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
       "dependsOn": [
         "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar",
         "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar",
-        "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar"
+        "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar",
+        "pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar"
       ]
     },
     {
@@ -1384,18 +1758,73 @@
     {
       "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.35?type=jar",
       "dependsOn": []
-    }
-  ],
-  "externalReferences": [
-    {
-      "type": "other",
-      "url": ".",
-      "comment": "Base path"
     },
     {
-      "type": "other",
-      "url": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/build.gradle",
-      "comment": "Package file"
+      "ref": "pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar",
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.slack.api/slack-api-model@1.29.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp3/okhttp@4.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio@3.0.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@3.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.5.31?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar",
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.20?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.5.31?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.20?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "dependsOn": []
     }
   ]
 }
