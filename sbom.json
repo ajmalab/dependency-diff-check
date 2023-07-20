@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:00de4a2d-b3c3-4a9f-bd50-4b3266ef603d",
+  "serialNumber": "urn:uuid:a548fc37-3cb4-4cb1-b255-322104f1a57c",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-07-13T17:28:13.130Z",
+    "timestamp": "2023-07-20T21:24:25.139Z",
     "tools": {
       "components": [
         {
           "group": "@cyclonedx",
           "name": "cdxgen",
-          "version": "9.2.1",
-          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.2.1",
+          "version": "9.2.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.2.2",
           "type": "application",
-          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.2.1"
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.2.2"
         }
       ]
     },
@@ -44,7 +44,74 @@
       ],
       "purl": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
       "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
-      "components": []
+      "components": [
+        {
+          "name": "dependency-diff-check-client-starter",
+          "type": "application",
+          "group": "com.ajmalab",
+          "version": "0.0.1-SNAPSHOT",
+          "properties": [
+            {
+              "name": "buildFile",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/client-starter/build.gradle"
+            },
+            {
+              "name": "projectDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/client-starter"
+            },
+            {
+              "name": "rootDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
+            }
+          ],
+          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar",
+          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar"
+        },
+        {
+          "name": "dependency-diff-check-common-core",
+          "type": "application",
+          "group": "com.ajmalab",
+          "version": "2.0.0",
+          "properties": [
+            {
+              "name": "buildFile",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/common-core/build.gradle"
+            },
+            {
+              "name": "projectDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/common-core"
+            },
+            {
+              "name": "rootDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
+            }
+          ],
+          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@2.0.0?type=jar",
+          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@2.0.0?type=jar"
+        },
+        {
+          "name": "dependency-diff-check-service",
+          "type": "application",
+          "group": "com.ajmalab",
+          "version": "latest",
+          "properties": [
+            {
+              "name": "buildFile",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/service/build.gradle"
+            },
+            {
+              "name": "projectDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check/service"
+            },
+            {
+              "name": "rootDir",
+              "value": "/Users/Ajmal.Kottilingal/dev/dependency-diff-check"
+            }
+          ],
+          "purl": "pkg:maven/com.ajmalab/dependency-diff-check-service@latest?type=jar",
+          "bom-ref": "pkg:maven/com.ajmalab/dependency-diff-check-service@latest?type=jar"
+        }
+      ]
     }
   },
   "components": [
@@ -1398,8 +1465,8 @@
       "ref": "pkg:maven/com.ajmalab/dependency-diff-check@0.0.1-SNAPSHOT?type=jar",
       "dependsOn": [
         "pkg:maven/com.ajmalab/dependency-diff-check-client-starter@0.0.1-SNAPSHOT?type=jar",
-        "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar",
-        "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar",
+        "pkg:maven/com.ajmalab/dependency-diff-check-common-core@2.0.0?type=jar",
+        "pkg:maven/com.ajmalab/dependency-diff-check-service@latest?type=jar",
         "pkg:maven/com.slack.api/slack-api-client@1.29.2?type=jar"
       ]
     },
@@ -1476,8 +1543,7 @@
         "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar",
         "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-jdbc@1.19.2-alpha?type=jar",
-        "pkg:maven/io.grpc/grpc-core@1.49.2?type=jar",
-        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar"
+        "pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"
       ]
     },
     {
@@ -1608,7 +1674,7 @@
       "dependsOn": []
     },
     {
-      "ref": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar",
+      "ref": "pkg:maven/com.ajmalab/dependency-diff-check-common-core@2.0.0?type=jar",
       "dependsOn": [
         "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
@@ -1636,9 +1702,9 @@
       "dependsOn": []
     },
     {
-      "ref": "pkg:maven/com.ajmalab/dependency-diff-check-service@0.0.1-SNAPSHOT?type=jar",
+      "ref": "pkg:maven/com.ajmalab/dependency-diff-check-service@latest?type=jar",
       "dependsOn": [
-        "pkg:maven/com.ajmalab/dependency-diff-check-common-core@0.0.1-SNAPSHOT?type=jar",
+        "pkg:maven/com.ajmalab/dependency-diff-check-common-core@latest?type=jar",
         "pkg:maven/org.projectlombok/lombok@1.18.26?type=jar",
         "pkg:maven/com.graphql-java/graphql-java@20.2?type=jar",
         "pkg:maven/org.flywaydb/flyway-mysql@9.18.0?type=jar"
@@ -1732,6 +1798,15 @@
     {
       "ref": "pkg:maven/com.google.code.gson/gson@2.10.1?type=jar",
       "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/dependency-diff-check-common-core@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?type=jar",
+        "pkg:maven/io.opentelemetry.instrumentation/opentelemetry-jdbc@1.19.2-alpha?type=jar",
+        "pkg:maven/io.grpc/grpc-core@1.49.2?type=jar"
+      ]
     },
     {
       "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.14.2?type=jar",

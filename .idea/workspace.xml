@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e894de6-10d7-4d8c-b969-5ae8191b7c6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common-core/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common-core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sbom.json" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +260,7 @@
       <workItem from="1684430459918" duration="3447000" />
       <workItem from="1684759599839" duration="2990000" />
       <workItem from="1685533958932" duration="3484000" />
+      <workItem from="1689887443673" duration="784000" />
     </task>
     <servers />
   </component>
