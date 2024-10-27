@@ -1606,6 +1606,5 @@ hru
 hello
 world
 hello
-worldd
 new commit
 hi
